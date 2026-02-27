@@ -1,0 +1,61 @@
+<svg width="520" height="360" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="heroAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A3D6B"/>
+      <stop offset="100%" stop-color="#00A6CE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background card -->
+  <rect x="20" y="20" rx="24" ry="24" width="480" height="320" fill="url(#heroBg)"/>
+
+  <!-- Chart style bars -->
+  <rect x="70" y="230" width="40" height="70" rx="8" fill="#BFDBFE"/>
+  <rect x="130" y="190" width="40" height="110" rx="8" fill="#60A5FA"/>
+  <rect x="190" y="160" width="40" height="140" rx="8" fill="#2563EB"/>
+  <rect x="250" y="140" width="40" height="160" rx="8" fill="#0A3D6B"/>
+
+  <!-- ECG line -->
+  <path d="M70 120 L110 120 L126 90 L144 150 L162 120 L210 120 L228 70 L250 180 L270 120 L320 120"
+        fill="none" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- B2B block -->
+  <rect x="310" y="70" width="160" height="90" rx="16" fill="#0F172A" opacity="0.96"/>
+  <text x="330" y="100" font-family="Inter, system-ui" font-size="13" font-weight="600" fill="#E5F3FF">
+    HOSPITAL PROCUREMENT
+  </text>
+  <text x="330" y="118" font-family="Inter, system-ui" font-size="11" fill="#9CA3AF">
+    Bulk quotes · Refurb · CapEx
+  </text>
+
+  <!-- B2C block -->
+  <rect x="330" y="190" width="140" height="80" rx="16" fill="#FFFFFF" stroke="#CBD5F5" stroke-width="1.5"/>
+  <text x="348" y="216" font-family="Inter, system-ui" font-size="13" font-weight="600" fill="#0F172A">
+    HOME CARE
+  </text>
+  <text x="348" y="234" font-family="Inter, system-ui" font-size="11" fill="#6B7280">
+    Wheelchairs · Monitors · Aids
+  </text>
+
+  <!-- Avatar group -->
+  <circle cx="120" cy="110" r="26" fill="url(#heroAccent)"/>
+  <circle cx="190" cy="90" r="24" fill="#0F172A" opacity="0.95"/>
+  <circle cx="170" cy="150" r="22" fill="#FFFFFF" stroke="#CBD5F5" stroke-width="2"/>
+
+  <path d="M112 108 q8 -16 16 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="116" cy="104" r="2" fill="#FFFFFF"/>
+  <circle cx="124" cy="104" r="2" fill="#FFFFFF"/>
+
+  <path d="M184 88 q7 -13 14 0" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="188" cy="84" r="2" fill="#FACC15"/>
+  <circle cx="194" cy="84" r="2" fill="#FACC15"/>
+
+  <path d="M162 148 q6 -10 12 0" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="166" cy="144" r="2" fill="#0F172A"/>
+  <circle cx="172" cy="144" r="2" fill="#0F172A"/>
+</svg>
+

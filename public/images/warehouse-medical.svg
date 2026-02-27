@@ -1,0 +1,47 @@
+<svg width="520" height="340" viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="whBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#E5E7EB"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="30" width="480" height="280" rx="24" fill="url(#whBg)"/>
+
+  <!-- Racks -->
+  <rect x="60" y="110" width="80" height="150" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <rect x="160" y="90" width="80" height="170" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <rect x="260" y="120" width="80" height="140" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+
+  <!-- Boxes -->
+  <rect x="70" y="125" width="60" height="30" rx="4" fill="#DBEAFE"/>
+  <rect x="70" y="165" width="60" height="30" rx="4" fill="#BFDBFE"/>
+  <rect x="70" y="205" width="60" height="30" rx="4" fill="#93C5FD"/>
+
+  <rect x="170" y="105" width="60" height="30" rx="4" fill="#DBEAFE"/>
+  <rect x="170" y="145" width="60" height="30" rx="4" fill="#BFDBFE"/>
+  <rect x="170" y="185" width="60" height="30" rx="4" fill="#60A5FA"/>
+  <rect x="170" y="225" width="60" height="30" rx="4" fill="#2563EB"/>
+
+  <rect x="270" y="135" width="60" height="30" rx="4" fill="#E5E7EB"/>
+  <rect x="270" y="175" width="60" height="30" rx="4" fill="#CBD5F5"/>
+  <rect x="270" y="215" width="60" height="30" rx="4" fill="#A5B4FC"/>
+
+  <!-- Forklift silhouette -->
+  <rect x="355" y="190" width="80" height="50" rx="10" fill="#0F172A"/>
+  <circle cx="375" cy="245" r="14" fill="#111827"/>
+  <circle cx="415" cy="245" r="14" fill="#111827"/>
+  <rect x="390" y="150" width="12" height="60" fill="#0F172A"/>
+  <rect x="404" y="150" width="8" height="60" fill="#2563EB"/>
+  <rect x="380" y="170" width="40" height="20" rx="6" fill="#1F2937"/>
+
+  <!-- Overlay label -->
+  <rect x="320" y="60" width="150" height="60" rx="14" fill="#0F172A" opacity="0.97"/>
+  <text x="338" y="86" font-family="Inter, system-ui" font-size="12" font-weight="600" fill="#E5F3FF">
+    CENTRAL WAREHOUSE
+  </text>
+  <text x="338" y="104" font-family="Inter, system-ui" font-size="10" fill="#9CA3AF">
+    Protected SKUs · Refills
+  </text>
+</svg>
+
