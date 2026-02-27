@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     opacity: 1,
                     duration: 0.01, // abrupt change
-                    stagger: 0.04,  // typing speed
+                    stagger: 0.015,  // typing speed
                     ease: "none",
                     scrollTrigger: {
                         trigger: heroTitle,

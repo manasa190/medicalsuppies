@@ -724,7 +724,6 @@ img {
 #b2b-heading {
     color: var(--clr-medical-blue);
     font-size: 2.8rem;
-    white-space: nowrap;
 }
 
 /* Audience B2B/B2C cards */
