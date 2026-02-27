@@ -29,22 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
             // Apply 'overflow: hidden' to lines or words so that 'y' translation reveals them,
             // though the react component just animated them directly from opacity 0 and y 40.
 
-            // Animate using the exact settings from the React component
-            gsap.fromTo(splitText.chars,
-                { opacity: 0, y: 40 },
+            // Typewriter typing effect
+            gsap.set(splitText.chars, { opacity: 0 });
+            gsap.to(splitText.chars,
                 {
                     opacity: 1,
-                    y: 0,
-                    duration: 1.25,
-                    ease: 'power3.out',
-                    stagger: 0.05, // delay of 50ms
+                    duration: 0.01, // abrupt change
+                    stagger: 0.04,  // typing speed
+                    ease: "none",
                     scrollTrigger: {
                         trigger: heroTitle,
-                        start: 'top 90%', // (1 - threshold=0.1) * 100
+                        start: 'top 90%',
                         once: true
-                    },
-                    willChange: 'transform, opacity',
-                    force3D: true
+                    }
                 }
             );
         }
